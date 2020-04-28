@@ -1,4 +1,4 @@
 package aufzug.exception;
 
-public class InvalidDoorState extends Exception implements  {
+public class InvalidDoorState extends Exception {
 }

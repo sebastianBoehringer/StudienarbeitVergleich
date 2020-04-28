@@ -1,4 +1,4 @@
 package aufzug.exception;
 
-public class Exception implements  {
+public class Exception {
 }

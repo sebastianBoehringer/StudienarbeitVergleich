@@ -1,8 +1,8 @@
 package aufzug.ShoppingCenter;
 
-public class Etage implements  {
-	public int number;
-	public String name;
-	public Etage next;
-	public Etage previous;
+public class Etage {
+	public int Number;
+	public String Name;
+	public Etage Next;
+	public Etage Previous;
 }

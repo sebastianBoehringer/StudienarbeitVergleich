@@ -1,6 +1,6 @@
 package aufzug.ShoppingCenter;
 
-public class Fahrgast implements  {
-	public Real weigth;
-	public Etage destination;
+public class Fahrgast {
+	public Real Weigth;
+	public Etage Destination;
 }

@@ -2,12 +2,12 @@ package aufzug.ShoppingCenter;
 
 import aufzug.exception.InvalidDoorState;
 
-public class Aufzug implements  {
-	public UnlimitedNatural numberOfPassengers;
-	public java.util.Vector<Fahrgast> passengers;
-	public int weightLimit = 2400;
-	public Etage currentFloor;
-	public DoorState door;
+public class Aufzug {
+	public UnlimitedNatural NumberOfPassengers;
+	public java.util.Vector<Fahrgast> Passengers;
+	public int WeightLimit = 2400;
+	public Etage CurrentFloor;
+	public DoorState Door;
 
 	public Fahrgast moveUp(UnlimitedNatural numberOfFloors) throws InvalidDoorState {
 		throw new UnsupportedOperationException();
