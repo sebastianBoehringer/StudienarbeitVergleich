@@ -1,3 +1,7 @@
+package aufzug.ShoppingCenter;
+
+import aufzug.exception.InvalidDoorState;
+
 public class Aufzug implements  {
 	public UnlimitedNatural numberOfPassengers;
 	public java.util.Vector<Fahrgast> passengers;

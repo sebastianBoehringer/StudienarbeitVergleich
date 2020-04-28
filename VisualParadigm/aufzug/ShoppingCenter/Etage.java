@@ -1,3 +1,5 @@
+package aufzug.ShoppingCenter;
+
 public class Etage implements  {
 	public int number;
 	public String name;
