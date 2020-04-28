@@ -1,0 +1,2 @@
+# StudienarbeitVergleich
+ Vergleich der Studienarbeit
