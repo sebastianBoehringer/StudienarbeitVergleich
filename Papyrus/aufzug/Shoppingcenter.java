@@ -8,5 +8,5 @@ package aufzug;
 /**
  * 
  */
-public class Shoppingcenter {
+public class ShoppingCenter {
 };

@@ -4,6 +4,9 @@
 
 package aufzug;
 
+import aufzug.Etage;
+import aufzug.ShoppingCenter;
+
 /************************************************************/
 /**
  * 
@@ -12,7 +15,7 @@ public class Fahrgast {
 	/**
 	 * 
 	 */
-	public float Weigth;
+	public float Weight;
 	/**
 	 * 
 	 */

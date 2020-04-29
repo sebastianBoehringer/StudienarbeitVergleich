@@ -4,6 +4,11 @@
 
 package aufzug;
 
+import aufzug.DoorState;
+import aufzug.Etage;
+import aufzug.Fahrgast;
+import aufzug.ShoppingCenter;
+
 /************************************************************/
 /**
  * 
@@ -20,7 +25,7 @@ public class Aufzug {
 	/**
 	 * 
 	 */
-	public int WeightLimit = 2400;
+	public int WeightLimit;
 	/**
 	 * 
 	 */
@@ -28,22 +33,22 @@ public class Aufzug {
 	/**
 	 * 
 	 */
-	public DoorState Door = Closed;
+	public DoorState Door;
 
 	/**
 	 * 
-	 * @return 
 	 * @param numberOfFloors 
+	 * @return 
 	 */
-	public Fahrgast[] moveUp(unlimitednatural numberOfFloors) throws InvalidDoorState {
+	public Fahrgast[] moveUp(unlimitednatural numberOfFloors) {
 	}
 
 	/**
 	 * 
-	 * @return 
 	 * @param numberOfFloors 
+	 * @return 
 	 */
-	public Fahrgast[] moveDown(unlimitednatural numberOfFloors) throws InvalidDoorState {
+	public Fahrgast[] moveDown(unlimitednatural numberOfFloors) {
 	}
 
 	/**

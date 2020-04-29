@@ -4,6 +4,8 @@
 
 package aufzug;
 
+import aufzug.ShoppingCenter;
+
 /************************************************************/
 /**
  * 
