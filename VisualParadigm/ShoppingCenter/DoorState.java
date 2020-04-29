@@ -1,4 +1,4 @@
-package aufzug.ShoppingCenter;
+package ShoppingCenter;
 
 public enum DoorState implements  {
 }

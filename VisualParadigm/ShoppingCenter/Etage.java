@@ -1,6 +1,6 @@
-package aufzug.ShoppingCenter;
+package ShoppingCenter;
 
-public class Etage {
+public class Etage implements  {
 	public int Number;
 	public String Name;
 	public Etage Next;
