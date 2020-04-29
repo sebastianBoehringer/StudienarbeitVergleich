@@ -1,4 +1,4 @@
-package shoppingcenter;
+package ShoppingCenter;
 
 
 public enum DoorState {

@@ -1,8 +1,9 @@
-package shoppingcenter;
+package ShoppingCenter;
 
+import external.unlimitedNatural;
 
 public class Fahrgast {
-    public float Weigth;
+    public unlimitedNatural Weight;
 
     public Etage Destination;
 

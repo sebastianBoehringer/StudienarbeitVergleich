@@ -1,45 +1,45 @@
-package shoppingcenter;
+package ShoppingCenter;
 
 import java.util.List;
-import exception.InvalidDoorState;
+import external.unlimitedNatural;
 
 public class Aufzug {
     public Fahrgast[] Passengers;
 
-    public int WeightLimit = 2400;
+    public int WeightLimit;
 
     public Etage CurrentFloor;
 
-    public DoorState Door = Closed;
+    public DoorState Door;
 
-    public List<Fahrgast> moveUp(int numberOfFloors) throws InvalidDoorState {
-//begin of modifiable zone(JavaCode)......C/5f15f786-53d3-46ae-bef5-9d87f5e9a95b
+    public List<Fahrgast> moveUp(unlimitedNatural numberOfFloors) {
+//begin of modifiable zone(JavaCode)......C/c5ddffef-8b71-4aeb-aac0-ac976495c508
 
-//end of modifiable zone(JavaCode)........E/5f15f786-53d3-46ae-bef5-9d87f5e9a95b
-//begin of modifiable zone(JavaReturned)..C/5f15f786-53d3-46ae-bef5-9d87f5e9a95b
+//end of modifiable zone(JavaCode)........E/c5ddffef-8b71-4aeb-aac0-ac976495c508
+//begin of modifiable zone(JavaReturned)..C/c5ddffef-8b71-4aeb-aac0-ac976495c508
 
-//end of modifiable zone(JavaReturned)....E/5f15f786-53d3-46ae-bef5-9d87f5e9a95b
+//end of modifiable zone(JavaReturned)....E/c5ddffef-8b71-4aeb-aac0-ac976495c508
     }
 
-    public List<Fahrgast> moveDown(int numberOfFloors) throws InvalidDoorState {
-//begin of modifiable zone(JavaCode)......C/c3088fcd-82da-4ff5-a2f6-b500acebeed4
+    public List<Fahrgast> moveDown(unlimitedNatural numberOfFloors) {
+//begin of modifiable zone(JavaCode)......C/37125fcf-d94c-4a69-9cdf-3218d8ebfb11
 
-//end of modifiable zone(JavaCode)........E/c3088fcd-82da-4ff5-a2f6-b500acebeed4
-//begin of modifiable zone(JavaReturned)..C/c3088fcd-82da-4ff5-a2f6-b500acebeed4
+//end of modifiable zone(JavaCode)........E/37125fcf-d94c-4a69-9cdf-3218d8ebfb11
+//begin of modifiable zone(JavaReturned)..C/37125fcf-d94c-4a69-9cdf-3218d8ebfb11
 
-//end of modifiable zone(JavaReturned)....E/c3088fcd-82da-4ff5-a2f6-b500acebeed4
+//end of modifiable zone(JavaReturned)....E/37125fcf-d94c-4a69-9cdf-3218d8ebfb11
     }
 
     public void openDoors() {
-//begin of modifiable zone(JavaCode)......C/ee59f249-2f7f-4be4-8130-0424e59cae77
+//begin of modifiable zone(JavaCode)......C/5fade2c8-6e76-42aa-a883-ab6fa0fb5eda
 
-//end of modifiable zone(JavaCode)........E/ee59f249-2f7f-4be4-8130-0424e59cae77
+//end of modifiable zone(JavaCode)........E/5fade2c8-6e76-42aa-a883-ab6fa0fb5eda
     }
 
     public void closeDoors() {
-//begin of modifiable zone(JavaCode)......C/07521555-9132-45cc-b761-badb6260606f
+//begin of modifiable zone(JavaCode)......C/c69622b6-fd40-45b5-bde5-5d36e772c5b3
 
-//end of modifiable zone(JavaCode)........E/07521555-9132-45cc-b761-badb6260606f
+//end of modifiable zone(JavaCode)........E/c69622b6-fd40-45b5-bde5-5d36e772c5b3
     }
 
 }
