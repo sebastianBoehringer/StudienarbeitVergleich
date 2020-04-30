@@ -13,33 +13,33 @@ public class Aufzug {
     public DoorState Door;
 
     public List<Fahrgast> moveUp(unlimitedNatural numberOfFloors) {
-//begin of modifiable zone(JavaCode)......C/c5ddffef-8b71-4aeb-aac0-ac976495c508
+//begin of modifiable zone(JavaCode)......C/85d51cd9-e1ab-4bcb-8036-dbba34556bd0
 
-//end of modifiable zone(JavaCode)........E/c5ddffef-8b71-4aeb-aac0-ac976495c508
-//begin of modifiable zone(JavaReturned)..C/c5ddffef-8b71-4aeb-aac0-ac976495c508
+//end of modifiable zone(JavaCode)........E/85d51cd9-e1ab-4bcb-8036-dbba34556bd0
+//begin of modifiable zone(JavaReturned)..C/85d51cd9-e1ab-4bcb-8036-dbba34556bd0
 
-//end of modifiable zone(JavaReturned)....E/c5ddffef-8b71-4aeb-aac0-ac976495c508
+//end of modifiable zone(JavaReturned)....E/85d51cd9-e1ab-4bcb-8036-dbba34556bd0
     }
 
     public List<Fahrgast> moveDown(unlimitedNatural numberOfFloors) {
-//begin of modifiable zone(JavaCode)......C/37125fcf-d94c-4a69-9cdf-3218d8ebfb11
+//begin of modifiable zone(JavaCode)......C/8417a15b-63ab-4d3b-b5ad-31dd895f866e
 
-//end of modifiable zone(JavaCode)........E/37125fcf-d94c-4a69-9cdf-3218d8ebfb11
-//begin of modifiable zone(JavaReturned)..C/37125fcf-d94c-4a69-9cdf-3218d8ebfb11
+//end of modifiable zone(JavaCode)........E/8417a15b-63ab-4d3b-b5ad-31dd895f866e
+//begin of modifiable zone(JavaReturned)..C/8417a15b-63ab-4d3b-b5ad-31dd895f866e
 
-//end of modifiable zone(JavaReturned)....E/37125fcf-d94c-4a69-9cdf-3218d8ebfb11
+//end of modifiable zone(JavaReturned)....E/8417a15b-63ab-4d3b-b5ad-31dd895f866e
     }
 
     public void openDoors() {
-//begin of modifiable zone(JavaCode)......C/5fade2c8-6e76-42aa-a883-ab6fa0fb5eda
+//begin of modifiable zone(JavaCode)......C/70311633-1fb3-4c39-b771-520a61a45c69
 
-//end of modifiable zone(JavaCode)........E/5fade2c8-6e76-42aa-a883-ab6fa0fb5eda
+//end of modifiable zone(JavaCode)........E/70311633-1fb3-4c39-b771-520a61a45c69
     }
 
     public void closeDoors() {
-//begin of modifiable zone(JavaCode)......C/c69622b6-fd40-45b5-bde5-5d36e772c5b3
+//begin of modifiable zone(JavaCode)......C/b0df021d-b20b-4ae4-8fcc-df72f0f71df2
 
-//end of modifiable zone(JavaCode)........E/c69622b6-fd40-45b5-bde5-5d36e772c5b3
+//end of modifiable zone(JavaCode)........E/b0df021d-b20b-4ae4-8fcc-df72f0f71df2
     }
 
 }
