@@ -1,6 +1,6 @@
 package ShoppingCenter;
 
-public class Fahrgast implements  {
+public class Fahrgast{
 	public Real Weight;
 	public Etage Destination;
 }

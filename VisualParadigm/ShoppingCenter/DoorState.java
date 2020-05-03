@@ -1,4 +1,4 @@
 package ShoppingCenter;
 
-public enum DoorState implements  {
+public enum DoorState{
 }

@@ -1,6 +1,6 @@
 package ShoppingCenter;
 
-public class Etage implements  {
+public class Etage {
 	public int Number;
 	public String Name;
 	public Etage Next;

@@ -1,6 +1,6 @@
 package ShoppingCenter;
 
-public class Aufzug implements  {
+public class Aufzug {
 	public UnlimitedNatural NumberOfPassengers;
 	public java.util.Vector<Fahrgast> Passengers;
 	public int WeightLimit;
