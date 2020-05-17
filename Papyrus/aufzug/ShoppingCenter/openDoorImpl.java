@@ -8,17 +8,5 @@ package aufzug.ShoppingCenter;
 /**
  * 
  */
-public class Fahrgast {
-	/**
-	 * 
-	 */
-	public float Weight;
-	/**
-	 * 
-	 */
-	public Etage Destination;
-	/**
-	 * 
-	 */
-	public Aufzug Aufzug;
+public class openDoorImpl {
 };

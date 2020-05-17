@@ -16,10 +16,6 @@ public class Aufzug {
 	/**
 	 * 
 	 */
-	public Fahrgast[] Passengers;
-	/**
-	 * 
-	 */
 	public int WeightLimit;
 	/**
 	 * 
@@ -50,11 +46,15 @@ public class Aufzug {
 	 * 
 	 */
 	public void openDoors() {
+		Door = DoorState.Opening;
+		Door = DoorState.Open;
 	}
 
 	/**
 	 * 
 	 */
 	public void closeDoors() {
+		Door = DoorState.Closing;
+		Door = DoorState.Closed;
 	}
 };

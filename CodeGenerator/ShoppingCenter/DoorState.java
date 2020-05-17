@@ -3,10 +3,10 @@ package ShoppingCenter;
 
 
 public enum DoorState{
-    Open,
-    Closing,
+    Opening,
     Closed,
-    Opening;
+    Open,
+    Closing;
 
 
 

@@ -1,60 +1,72 @@
 package ShoppingCenter;
 
 import java.util.HashSet;
-import ShoppingCenter.Etage;
 import ShoppingCenter.DoorState;
+import ShoppingCenter.Etage;
+import ShoppingCenter.AbstractAufzugState;
 import ShoppingCenter.Fahrgast;
 import java.util.Set;
 
 
 public class Aufzug {
-    public Etage CurrentFloor;
     public Integer WeightLimit;
     public Double NumberOfPassengers;
-    public Set<Fahrgast> Passengers;
     public DoorState Door;
+    public Etage CurrentFloor;
+     AbstractAufzugState aufzugFaehrtHochState = new AufzugFaehrtHochState();
+     AbstractAufzugState aufzugFaehrtRunterState = new AufzugFaehrtRunterState();
+     AbstractAufzugState aufzugTuerOffenState = new AufzugTuerOffenState();
+     AbstractAufzugState aufzugTuerGeschlossenState = new AufzugTuerGeschlossenState();
+    private AbstractAufzugState current_state = aufzugTuerOffenState;
 
-    public Set<Fahrgast> moveDown(Double numberOfFloors){
-        closeDoors();
-        while( numberOfFloors > 0){
-            CurrentFloor = CurrentFloor.Previous;
-            numberOfFloors--;
-
-        }
-        openDoors();
-    throw new UnsupportedOperationException();};
-    public Set<Fahrgast> moveUp(Double numberOfFloors){
-        closeDoors();
-        while( numberOfFloors > 0){
-            CurrentFloor = CurrentFloor.Next;
-            numberOfFloors--;
-
-        }
-        openDoors();
-    throw new UnsupportedOperationException();};
     public void closeDoors(){
-        if (Door == DoorState.Opening){
-            Door = DoorState.Closing;
-            Door = DoorState.Closed;
 
-        }
-        else if (Door == DoorState.Open){
+Door = DoorState.Closing;
+Door = DoorState.Closed;
+    };
+    public Set<Fahrgast> moveUp(Double numberOfFloors){
+        throw new UnsupportedOperationException();
 
-        }
-        else if (Door == DoorState.Closing || Door == DoorState.Closed){
+    };
+    public Set<Fahrgast> moveDown(Double numberOfFloors){
+        throw new UnsupportedOperationException();
 
-        }
-
-    throw new UnsupportedOperationException();};
+    };
     public void openDoors(){
-        if (Door == DoorState.Opening || Door == DoorState.Open){
-            Door = DoorState.Opening;
-            Door = DoorState.Open;
 
-        }
-        else if (Door == DoorState.Closed || Door == DoorState.Closing){
+Door = DoorState.Opening;
+Door = DoorState.Open;
+    };
+    public void moveFloorsDown(){
 
-        }
+        current_state.moveFloorsDown();
 
-    throw new UnsupportedOperationException();};
+    };
+    public void openTheDoors(){
+
+        current_state.openTheDoors();
+
+    };
+    public void closeTheDoors(){
+
+        current_state.closeTheDoors();
+
+    };
+    public void targetIsReached(){
+
+        current_state.targetIsReached();
+
+    };
+    public void moveFloorsUp(){
+
+        current_state.moveFloorsUp();
+
+    };
+     void transit(AbstractAufzugState state){
+
+        current_state = state;
+        current_state.entry();
+        current_state.doActivity();
+
+    };
 }
