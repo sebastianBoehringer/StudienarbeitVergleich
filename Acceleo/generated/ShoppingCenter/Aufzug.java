@@ -3,19 +3,16 @@ public class Aufzug {
 
 	private UnlimitedNatural NumberOfPassengers;
 
-	private Fahrgast Passengers;
-
 	private Integer WeightLimit;
 
 	private Etage CurrentFloor;
 
 	private DoorState Door;
+
+	private Fahrgast Passengers;
  
 	public UnlimitedNatural getNumberOfPassengers(){
 		return this.NumberOfPassengers;
-
-	public Fahrgast getPassengers(){
-		return this.Passengers;
 
 	public Integer getWeightLimit(){
 		return this.WeightLimit;
@@ -26,12 +23,11 @@ public class Aufzug {
 	public DoorState getDoor(){
 		return this.Door;
 
+	public Fahrgast getPassengers(){
+		return this.Passengers;
+
 	public void setNumberOfPassengers(UnlimitedNatural NumberOfPassengers){
 		this.NumberOfPassengers = NumberOfPassengers;
-	}
-
-	public void setPassengers(Fahrgast Passengers){
-		this.Passengers = Passengers;
 	}
 
 	public void setWeightLimit(Integer WeightLimit){
@@ -46,6 +42,10 @@ public class Aufzug {
 		this.Door = Door;
 	}
 
+	public void setPassengers(Fahrgast Passengers){
+		this.Passengers = Passengers;
+	}
+
 	public Fahrgast moveUp(UnlimitedNatural numberOfFloors, Fahrgast passengers){
 		throw new UnsupportedOperationException();
 	}
@@ -54,11 +54,11 @@ public class Aufzug {
 		throw new UnsupportedOperationException();
 	}
 
-	public invalid openDoors(){
+	public void openDoors(){
 		throw new UnsupportedOperationException();
 	}
 
-	public invalid closeDoors(){
+	public void closeDoors(){
 		throw new UnsupportedOperationException();
 	}
 }

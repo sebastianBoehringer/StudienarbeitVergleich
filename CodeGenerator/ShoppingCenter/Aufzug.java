@@ -10,7 +10,8 @@ import java.util.Set;
 
 public class Aufzug {
     public Integer WeightLimit;
-    public Double NumberOfPassengers;
+    public Long NumberOfPassengers;
+    public Set<Fahrgast> Passengers;
     public DoorState Door;
     public Etage CurrentFloor;
      AbstractAufzugState aufzugFaehrtHochState = new AufzugFaehrtHochState();
@@ -19,23 +20,23 @@ public class Aufzug {
      AbstractAufzugState aufzugTuerGeschlossenState = new AufzugTuerGeschlossenState();
     private AbstractAufzugState current_state = aufzugTuerOffenState;
 
+    public void openDoors(){
+
+Door = DoorState.Opening;
+Door = DoorState.Open;
+    };
+    public Set<Fahrgast> moveUp(Long numberOfFloors){
+        throw new UnsupportedOperationException();
+
+    };
     public void closeDoors(){
 
 Door = DoorState.Closing;
 Door = DoorState.Closed;
     };
-    public Set<Fahrgast> moveUp(Double numberOfFloors){
+    public Set<Fahrgast> moveDown(Long numberOfFloors){
         throw new UnsupportedOperationException();
 
-    };
-    public Set<Fahrgast> moveDown(Double numberOfFloors){
-        throw new UnsupportedOperationException();
-
-    };
-    public void openDoors(){
-
-Door = DoorState.Opening;
-Door = DoorState.Open;
     };
     public void moveFloorsDown(){
 

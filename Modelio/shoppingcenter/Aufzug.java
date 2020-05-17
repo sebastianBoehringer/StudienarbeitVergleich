@@ -5,33 +5,33 @@ import java.util.List;
 import com.modeliosoft.modelio.javadesigner.annotations.objid;
 import external.unlimitedNatural;
 
-@objid ("6f592965-47ff-4784-a80b-ff5eab0e6f25")
+@objid ("fb1c8e96-704c-4d02-9de8-a2e8b0569b14")
 public class Aufzug {
-    @objid ("ae901a80-2841-4db3-a0ce-24e648ea9cf4")
+    @objid ("49ed133c-dd4c-4e59-ab11-05d156314c77")
     public int WeightLimit;
 
-    @objid ("8dc3551a-07e3-47da-8348-b039169b436c")
+    @objid ("127c8879-2d80-4c47-b35a-ca25a442de39")
     public Etage CurrentFloor;
 
-    @objid ("0bb6ed74-59ff-4675-bf6f-b4a1d4e411a4")
+    @objid ("ec806a80-cee9-4738-9124-a34c43b187e3")
     public DoorState Door;
 
-    @objid ("91e259df-193c-4217-b361-707f5897ce61")
+    @objid ("abb3a59e-43b4-47fe-bcac-cc7e7b657fd2")
     public List<Fahrgast> Passengers = new ArrayList<Fahrgast> ();
 
-    @objid ("426dd1c4-f2c5-4d91-abc6-49e49db669b9")
+    @objid ("d6253063-1b7a-46fb-b4ac-7cf3dbefdb7f")
     public List<Fahrgast> moveUp(unlimitedNatural numberOfFloors) {
     }
 
-    @objid ("b043bf17-a210-4301-8707-0a10d1653902")
+    @objid ("271def97-e640-440a-9f4f-6e440d6c708f")
     public List<Fahrgast> moveDown(unlimitedNatural numberOfFloors) {
     }
 
-    @objid ("e3b266f4-c205-4f6d-8c39-09adf633aa38")
+    @objid ("d84d8037-aacf-4ed3-a05c-fcbf831947fe")
     public void openDoors() {
     }
 
-    @objid ("a698a6a5-0f15-4dd1-b930-bb2617bedbd8")
+    @objid ("f67f3169-ad7a-47fb-a189-a51f77692035")
     public void closeDoors() {
     }
 

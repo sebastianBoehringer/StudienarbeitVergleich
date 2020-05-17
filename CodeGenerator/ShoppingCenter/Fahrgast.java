@@ -6,9 +6,9 @@ import ShoppingCenter.Aufzug;
 
 
 public class Fahrgast {
+    public Double Weight;
     public Etage Destination;
     public Aufzug Aufzug;
-    public Double Weight;
      AbstractFahrgastState fahrgastFahreMitAufzugState = new FahrgastFahreMitAufzugState();
      AbstractFahrgastState fahrgastEndState = new FahrgastEndState();
      AbstractFahrgastState fahrgastWarteAufAufzugState = new FahrgastWarteAufAufzugState();

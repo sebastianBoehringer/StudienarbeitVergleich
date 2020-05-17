@@ -2,18 +2,18 @@ package ShoppingCenter;
 
 import com.modeliosoft.modelio.javadesigner.annotations.objid;
 
-@objid ("bfe45e07-fccd-455c-8d3f-f01b9445c7c9")
+@objid ("e22632fe-b782-4062-87b1-e6dd76b7f0f8")
 public class Etage {
-    @objid ("fd80e45b-e0c7-407e-95b9-b9d4dfb4bdec")
+    @objid ("2ff14228-3893-4887-ba2e-d253a33ccec3")
     public int Number;
 
-    @objid ("e530a505-65a0-4e14-985f-02b72c027f57")
+    @objid ("6d620eb9-678b-4ad7-b997-b3cec532aed3")
     public String Name;
 
-    @objid ("1b7628d2-a45a-4bc9-9510-4f196b4ac19d")
+    @objid ("06520ef0-ba69-4192-9abb-d90b85366b74")
     public Etage Next;
 
-    @objid ("42a89632-2391-423f-9021-23475e572fd0")
+    @objid ("0e57b95c-15a6-41d4-8ab4-07a14843ba3c")
     public Etage Previous;
 
 }

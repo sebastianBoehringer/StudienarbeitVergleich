@@ -25,7 +25,7 @@ public class [aClass.name.toUpperFirst()/][if aClass.general->notEmpty()] extend
 	[/for]
 
 	[for (o: Operation | aClass.ownedOperation) separator('\n')]
-	[o.visibility/] [o.type.name/] [o.name/]([for (p: Parameter | o.ownedParameter) separator(', ')][p.type.name/] [p.name/][/for]){
+	[o.visibility/] [if (o.type <> null)][o.type.name/][/if][if (o.type = null)]void[/if] [o.name/]([for (p: Parameter | o.ownedParameter) separator(', ')][p.type.name/] [p.name/][/for]){
 		throw new UnsupportedOperationException();
 	}
 	[/for]

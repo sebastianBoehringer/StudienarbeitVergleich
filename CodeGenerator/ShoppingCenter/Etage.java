@@ -3,10 +3,10 @@ package ShoppingCenter;
 
 
 public class Etage {
-    public Etage Next;
-    public Etage Previous;
     public String Name;
+    public Etage Next;
     public Integer Number;
+    public Etage Previous;
 
 
 }

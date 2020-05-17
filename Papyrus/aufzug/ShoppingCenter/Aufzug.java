@@ -25,6 +25,10 @@ public class Aufzug {
 	 * 
 	 */
 	public DoorState Door;
+	/**
+	 * 
+	 */
+	public Fahrgast[] Passengers;
 
 	/**
 	 * 

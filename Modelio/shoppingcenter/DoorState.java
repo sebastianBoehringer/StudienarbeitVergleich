@@ -2,7 +2,7 @@ package ShoppingCenter;
 
 import com.modeliosoft.modelio.javadesigner.annotations.objid;
 
-@objid ("f0c65cf0-38a0-46b0-bb66-4fa90194d03a")
+@objid ("1c25851e-82f6-4da8-ad01-cb8033ba4383")
 public enum DoorState {
     Open,
     Opening,
