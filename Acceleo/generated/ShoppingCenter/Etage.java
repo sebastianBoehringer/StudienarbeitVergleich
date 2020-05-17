@@ -1,4 +1,4 @@
-package ShoppingCenter
+package ShoppingCenter;
 public class Etage {
 
 	private Integer Number;
@@ -11,15 +11,19 @@ public class Etage {
  
 	public Integer getNumber(){
 		return this.Number;
+	}
 
 	public String getName(){
 		return this.Name;
+	}
 
 	public Etage getNext(){
 		return this.Next;
+	}
 
 	public Etage getPrevious(){
 		return this.Previous;
+	}
 
 	public void setNumber(Integer Number){
 		this.Number = Number;

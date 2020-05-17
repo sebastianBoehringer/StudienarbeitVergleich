@@ -6,7 +6,7 @@
 [comment @main/]
 [if (aClass.oclIsTypeOf(Class))]
 [file (aClass.classFileName(), false, 'UTF-8')]
-package [aClass.containingPackages().name->sep('.')/]
+package [aClass.containingPackages().name->sep('.')/];
 public class [aClass.name.toUpperFirst()/][if aClass.general->notEmpty()] extends [for (c : Classifier | aClass.general) separator(', ')][c.name/][/for][/if] {
 
 	[for (p: Property | aClass.attribute) separator('\n')]
@@ -16,6 +16,7 @@ public class [aClass.name.toUpperFirst()/][if aClass.general->notEmpty()] extend
 	[for (p: Property | aClass.attribute) separator('\n')]
 	public [p.type.name/] get[p.name.toUpperFirst()/](){
 		return this.[p.name/];
+	}
 	[/for]
 
 	[for (p: Property | aClass.attribute) separator('\n')]

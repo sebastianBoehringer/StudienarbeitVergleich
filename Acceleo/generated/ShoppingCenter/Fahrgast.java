@@ -1,4 +1,4 @@
-package ShoppingCenter
+package ShoppingCenter;
 public class Fahrgast {
 
 	private Real Weight;
@@ -9,12 +9,15 @@ public class Fahrgast {
  
 	public Real getWeight(){
 		return this.Weight;
+	}
 
 	public Etage getDestination(){
 		return this.Destination;
+	}
 
 	public Aufzug getAufzug(){
 		return this.Aufzug;
+	}
 
 	public void setWeight(Real Weight){
 		this.Weight = Weight;

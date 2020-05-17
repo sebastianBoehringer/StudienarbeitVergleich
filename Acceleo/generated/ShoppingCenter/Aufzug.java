@@ -1,4 +1,4 @@
-package ShoppingCenter
+package ShoppingCenter;
 public class Aufzug {
 
 	private UnlimitedNatural NumberOfPassengers;
@@ -13,18 +13,23 @@ public class Aufzug {
  
 	public UnlimitedNatural getNumberOfPassengers(){
 		return this.NumberOfPassengers;
+	}
 
 	public Integer getWeightLimit(){
 		return this.WeightLimit;
+	}
 
 	public Etage getCurrentFloor(){
 		return this.CurrentFloor;
+	}
 
 	public DoorState getDoor(){
 		return this.Door;
+	}
 
 	public Fahrgast getPassengers(){
 		return this.Passengers;
+	}
 
 	public void setNumberOfPassengers(UnlimitedNatural NumberOfPassengers){
 		this.NumberOfPassengers = NumberOfPassengers;
